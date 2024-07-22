@@ -27,7 +27,7 @@ int main(int argc, string argv[])
     // Check for invalid usage
     if (argc < 2)
     {
-        printf("Usage: plurality [candidate ...]\n");
+        printf("Missing command-line\n");
         return 1;
     }
 

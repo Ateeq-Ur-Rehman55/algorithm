@@ -8,19 +8,15 @@ Follow these steps to install and run the program:
 
     Clone the repository:
 
-    bash
 
 git clone https://github.com/yourusername/Plurality.c.git
 
 Navigate to the project directory:
 
-bash
-
 cd Plurality.c
 
 Compile the program using gcc:
 
-bash
 
     gcc -o plurality plurality.c
 
@@ -28,7 +24,6 @@ Usage
 
 To run the program, use the following command format:
 
-bash
 
 ./plurality candidate1 candidate2 candidate3 ...
 
@@ -36,25 +31,19 @@ Example
 
     Compile the program:
 
-    bash
 
 gcc -o plurality plurality.c
 
 Run the program with candidate names:
 
-bash
-
 ./plurality Alice Bob Charlie
 
 The program will prompt you to enter the number of voters:
-
-bash
 
 Number of voters: 3
 
 Enter the votes by candidate name:
 
-bash
 
 Vote: Alice
 Vote: Bob
@@ -62,7 +51,6 @@ Vote: Alice
 
 The program will then output the winner(s) of the election:
 
-bash
 
     Winner: Alice
 
